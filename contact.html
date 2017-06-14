@@ -253,7 +253,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="col-md-6 w3_agileits_contact_grid_right">
 			<h2 class="w3_agile_header">Leave a<span> Message</span></h2>
 
-			<form action="#" method="post">
+			<form id="gform" action="https://script.google.com/macros/s/AKfycby7e8lmI7BwD9zO5AhiYWOTsKTOXr-1cf8ReEMAwCGrscBH3Y8/exec" method="post">
 					<span class="input input--ichiro">
 						<input class="input__field input__field--ichiro" type="text" id="input-25" name="Name" placeholder=" " required="" />
 						<label class="input__label input__label--ichiro" for="input-25">
@@ -393,6 +393,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 </script>
 <!-- //main slider-banner -->
+
+<!-- Customise the Thankyou Message People See when they submit the form: -->
+<div style="display:none;" id="thankyou_message">
+	<h2><em>Thanks</em> for contacting us!
+		We will get back to you soon!</h2>
+</div>
+
+<!-- Submit the Form to Google Using "AJAX" -->
+<!--<script data-cfasync="false" type="text/javascript"
+		src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>-->
+<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+<!-- END -->
 
 </body>
 </html>
