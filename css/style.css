@@ -189,10 +189,9 @@ button.w3view-cart:focus{
     width: 33.33%;
 }
 .w3ls_logo_products_left h1 a{
-	font-size: 40px;
+	font-size: 50px;
     color: #fe9126;
     text-decoration: none;
-    text-transform: uppercase;
     display: block;
     line-height: 1;
 }
@@ -1490,7 +1489,7 @@ h3.w3_agile_header,h2.w3_agile_header {
     color: #212121;
     padding-bottom: .5em;
     position: relative;
-    font-size: 2.5em;
+    font-size: 3.0em;
     text-transform: uppercase
 }
 h3.w3_agile_header:after,h2.w3_agile_header:after{
