@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -2213,7 +2207,7 @@ a.callbacks1_s3.active,a.callbacks1_s3:focus{
 }
 
 /*-- facebook --*/
-/*-- w3layouts --*/
+
 .icon-cube.agile_facebook::before,
 .icon-cube.agile_facebook::after {
 	content: "\f09a";
