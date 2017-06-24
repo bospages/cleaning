@@ -246,12 +246,12 @@ ul.multi-column-dropdown h6 {
     margin: 14px 0;
 }
 .multi-column-dropdown li a {
-    display: block;
+    display: inline;
     clear: both;
     line-height: 1.428571429;
     color: #999 !important;
     white-space: normal;
-	font-weight:500 !important;
+	font-weight:bold;
 }
 .dropdown-menu.columns-3 {
     min-width: 190px;
